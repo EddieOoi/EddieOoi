@@ -1,22 +1,22 @@
 <div align="center">
   <img src="https://media.giphy.com/media/BpcMQqJoaPuhSWjOVV/giphy.gif" width="300" alt="Cat GIF" />
-</div>
+  
+  <h2>Hi, I'm Eddie</h2>
+  <br />
 
-## Hi, I'm Eddie
-<br />
-
-<div align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00FF87&center=true&vCenter=true&width=500&height=50&lines=Full-Stack+%26+Mobile+Dev;XR+%26+Game+Developer;Leveling+Up+One+Commit+at+a+Time" alt="Typing SVG" />
+  <a href="https://github.com/EddieOoi">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=9D4EDD&center=true&vCenter=true&width=500&height=50&lines=Full-Stack+%26+Mobile+Dev;XR+%26+Interactive+Software+Developer;Turning+Coffee+%26+Matcha+into+Code" alt="Typing SVG" />
   </a>
 </div>
 
-### 🚀 Character Profile
-I am a passionate interactive developer based in Klang, Selangor, Malaysia. My expertise lies in interactive software technology, XR development, and web programming. I recently completed my Bachelor in Computer Science (Honours) from Tunku Abdul Rahman University of Management and Technology (TAR UMT). I love turning complex logic into immersive digital solutions and digitalizing workflows to solve real-world challenges. 
+## 🚀 Character Profile
 
-Dev Creed: "If it’s interactive, immersive, or impactful, I’m building it."
-<br />
-## ✦ ── 🌐 Socials 🌐 ── ✦
+I am a passionate interactive developer based in Klang, Selangor, Malaysia. My expertise lies in interactive software technology, XR development, and web programming. I recently completed my Bachelor in Computer Science (Honours) from Tunku Abdul Rahman University of Management and Technology (TAR UMT). I love turning complex logic into immersive digital solutions and digitalizing workflows to solve real-world challenges.
+
+> 🟩 **Dev Creed:** *"If it’s interactive, immersive, or impactful, I’m building it."*
+
+## ✦ ── 📢 Socials 📢 ── ✦
+
 <a href="https://eddieooi.github.io/3ddGemu-Portfolio/" target="_blank">
   <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white" alt="Portfolio" />
 </a>
@@ -26,8 +26,8 @@ Dev Creed: "If it’s interactive, immersive, or impactful, I’m building it."
 <a href="https://github.com/EddieOoi" target="_blank">
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
 </a>
-<a href="tel:01126169814">
-  <img src="https://img.shields.io/badge/Phone-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Phone" />
+<a href="https://www.linkedin.com/in/eddieooi" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
 </a>
 
 ## ✦ ── 🏆 Work & Leadership Experience 🏆── ✦
