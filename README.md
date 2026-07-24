@@ -5,7 +5,7 @@
   <br />
 
   <a href="https://github.com/EddieOoi">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=9D4EDD&center=true&vCenter=true&width=500&height=50&lines=Full-Stack+%26+Mobile+Dev;XR+%26+Interactive+Software+Developer;Turning+Coffee+%26+Matcha+into+Code" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=9D4EDD&center=true&vCenter=true&width=500&height=50&lines=Full-Stack+%26+Mobile+Dev;XR+%26+Interactive+Software+Developer;Turning+Milk+%26+Matcha+into+Code" alt="Typing SVG" />
   </a>
 </div>
 
