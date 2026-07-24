@@ -42,6 +42,10 @@ I am a passionate interactive developer based in Klang, Selangor, Malaysia. My e
 🚀 Deploy > Overthink: Ideas are great, but working code in production is better.
 👥 Multiplayer Mindset: Passionate about building strong team dynamics, guiding projects from initial spawn to final boss.
 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/EddieOoi/EddieOoi/output/github-contribution-grid-snake-dark.svg" alt="Contribution Grid Snake" />
+</div>
+
 ```text
 $ git diff dev-mindset.config
 @@ -1,4 +1,4 @@
