@@ -26,7 +26,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # 2. Generate Space Shooter GIF (With GH_TOKEN added)
+      # 2. Generate Space Shooter GIF (GH_TOKEN fixed here)
       - name: Generate Space Shooter GIF
         uses: czl9707/gh-space-shooter@v1.0.0
         with:
