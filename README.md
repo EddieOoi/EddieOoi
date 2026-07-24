@@ -25,8 +25,9 @@ My mantra: "Build fast, learn faster."
 
 ```text
 $ git status
-On branch building-my-career
+On branch main-questline
 Changes to be committed:
   (use "git reset HEAD <file>..." to unstage)
-        new file: immersive-xr-app.cs
-        modified: skills-level.txt  # "leveling up everyday"
+        new file: epic-xr-prototype.cs    # deploying virtual magic
+        modified: dev-skills.json         # EXP gained! Leveling up...
+        deleted:  sleep-schedule.log      # a necessary sacrifice
