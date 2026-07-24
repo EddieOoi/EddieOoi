@@ -35,8 +35,8 @@ I am a passionate interactive developer based in Klang, Selangor, Malaysia. My e
 
   <br /><br />
 
-  <!-- Space Shooter Game inside assets folder -->
-  <img src="assets/space-shooter.gif" alt="Space Shooter Contribution Grid" />
+  <!-- Space Shooter Game -->
+  <img src="https://raw.githubusercontent.com/EddieOoi/EddieOoi/output/space-shooter.gif" alt="Space Shooter Contribution Grid" />
 </div>
 
 ```text
