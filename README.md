@@ -9,28 +9,30 @@
   </a>
 </div>
 
-## 🚀 Character Profile
+## 🚀 Character Profile 😎😎
 
 I am a passionate interactive developer based in Klang, Selangor, Malaysia. My expertise lies in interactive software technology, XR development, and web programming. I recently completed my Bachelor in Computer Science (Honours) from Tunku Abdul Rahman University of Management and Technology (TAR UMT). I love turning complex logic into immersive digital solutions and digitalizing workflows to solve real-world challenges.
 
-> 🟩 **Dev Creed:** *"If it’s interactive, immersive, or impactful, I’m building it."*
+> 🟩 **Dev Creed:** *"If it’s interactive, immersive, or impactful, I’m building it."*💪💪
 
-## ✦ ── 📢 Socials 📢 ── ✦
+<div align="center">
+  <h3>🎮 ─── [ MULTIPLAYER HUB // CONNECT ] ─── 🎮</h3>
 
-<a href="https://eddieooi.github.io/3ddGemu-Portfolio/" target="_blank">
-  <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white" alt="Portfolio" />
-</a>
-<a href="mailto:eddie.weikit@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
-</a>
-<a href="https://github.com/EddieOoi" target="_blank">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-</a>
-<a href="https://www.linkedin.com/in/eddieooi" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-</a>
+  <a href="https://eddieooi.github.io/3ddGemu-Portfolio/" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white" alt="Portfolio" />
+  </a>
+  <a href="mailto:eddie.weikit@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+  </a>
+  <a href="https://github.com/EddieOoi" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+  <a href="https://www.linkedin.com/in/eddieooi" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+</div>
 
-## ✦ ── 🏆 Work & Leadership Experience 🏆── ✦
+## 🏆 ── [ STAGE CLEAR: WORK & LEADERSHIP ] ── 🏆
 
 * **Associate Solutions Engineer at THEXRA SDN BHD (May 2026 - August 2026):** Engineered immersive XR and AI-driven applications for industrial safety training, and designed a comprehensive XR curriculum for the CelcomDigi Metaversity Internship Programme.
 * **XR Coordinator at THEXRA SDN BHD (Nov 2025 - May 2026):** Developed AR/VR applications and custom 3D assets, driving the end-to-end deployment of enterprise XR solutions.
@@ -42,8 +44,10 @@ I am a passionate interactive developer based in Klang, Selangor, Malaysia. My e
 🚀 Deploy > Overthink: Ideas are great, but working code in production is better.
 👥 Multiplayer Mindset: Passionate about building strong team dynamics, guiding projects from initial spawn to final boss.
 
+### 🕹️ ── ▓▒░ MISSION LOG & CONTRIBUTION GRID ░▒▓ ── 🕹️
+
 <div align="center">
-  <img src="https://raw.githubusercontent.com/EddieOoi/EddieOoi/output/github-contribution-grid-snake-dark.svg" alt="Contribution Grid Snake" />
+  <img src="https://raw.githubusercontent.com/EddieOoi/EddieOoi/output/github-contribution-grid-snake-dark.svg" alt="Space Shooter Contribution Grid" />
 </div>
 
 ```text
