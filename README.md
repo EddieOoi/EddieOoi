@@ -1,3 +1,8 @@
+<div align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=9D4EDD&center=true&vCenter=true&width=500&height=50&lines=Full-Stack+%26+Mobile+Dev;XR+%26+Game+Developer;Leveling+Up+One+Commit+at+a+Time" alt="Typing SVG" />
+  </a>
+</div>
 # Hi, I'm Ooi Wei Kit (Eddie) 👋
 
 ### 🚀 Character Profile
