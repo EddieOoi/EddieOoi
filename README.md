@@ -30,18 +30,6 @@ I am a passionate interactive developer based in Klang, Selangor, Malaysia. My e
 <div align="center">
   <h3>👾 ─── [ LEVEL PROGRESSION GRID ] ─── 👾</h3>
 
-  <!-- Snake Game Animation -->
-  <img src="https://raw.githubusercontent.com/EddieOoi/EddieOoi/output/github-contribution-grid-snake-dark.svg" alt="Snake Contribution Grid" />
-
-  <br /><br />
-
-  <!-- 2D Spaceship Shooter Animation -->
-  <img src="https://raw.githubusercontent.com/EddieOoi/EddieOoi/output/space-shooter.gif" alt="Space Shooter Contribution Grid" />
-</div>
-
-<div align="center">
-  <h3>👾 ─── [ LEVEL PROGRESSION GRID ] ─── 👾</h3>
-
   <!-- Snake Game -->
   <img src="https://raw.githubusercontent.com/EddieOoi/EddieOoi/output/github-contribution-grid-snake-dark.svg" alt="Snake Game" />
 
