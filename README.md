@@ -49,6 +49,7 @@ I am a passionate interactive developer based in Klang, Selangor, Malaysia. My e
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
 </div>
+
 ```text
 $ git diff dev-mindset.config
 @@ -1,4 +1,4 @@
