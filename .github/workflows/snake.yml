@@ -1,17 +1,12 @@
-name: Generate Snake Contribution Grid
+name: Generate Contribution Animations
 
 on:
   schedule:
-    # Run automatically every 24 hours
     - cron: "0 0 * * *"
-  
-  # Allows manual triggering
   workflow_dispatch:
-
-  # Run on every push to main
   push:
     branches:
-    - main
+      - main
 
 jobs:
   generate:
@@ -21,19 +16,25 @@ jobs:
     timeout-minutes: 5
 
     steps:
-      # Generates a snake/space grid from a github user contribution graph
-      - name: generate github-contribution-grid-snake.svg
+      # 1. Generate Snake Animation
+      - name: Generate Snake SVG
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # Push the generated SVG file to the output branch
-      - name: push github-contribution-grid-snake.svg to the output branch
+      # 2. Generate Space Shooter GIF
+      - name: Generate Space Shooter GIF
+        uses: czl9707/gh-space-shooter@v1.0.0
+        with:
+          username: ${{ github.repository_owner }}
+          output: dist/space-shooter.gif
+
+      # 3. Deploy both to output branch
+      - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
