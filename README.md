@@ -27,10 +27,16 @@ I am a passionate interactive developer based in Klang, Selangor, Malaysia. My e
 🚀 Deploy > Overthink: Ideas are great, but working code in production is better.
 👥 Multiplayer Mindset: Passionate about building strong team dynamics, guiding projects from initial spawn to final boss.
 
-### 🕹️ ── ▓▒░ MISSION LOG & CONTRIBUTION GRID ░▒▓ ── 🕹️
-
 <div align="center">
-  <img src="https://raw.githubusercontent.com/EddieOoi/EddieOoi/output/github-contribution-grid-snake-dark.svg" alt="Space Shooter Contribution Grid" />
+  <h3>👾 ─── [ LEVEL PROGRESSION GRID ] ─── 👾</h3>
+
+  <!-- Snake Game Animation -->
+  <img src="https://raw.githubusercontent.com/EddieOoi/EddieOoi/output/github-contribution-grid-snake-dark.svg" alt="Snake Contribution Grid" />
+
+  <br /><br />
+
+  <!-- 2D Spaceship Shooter Animation -->
+  <img src="https://raw.githubusercontent.com/EddieOoi/EddieOoi/output/space-shooter.gif" alt="Space Shooter Contribution Grid" />
 </div>
 
 <div align="center">
