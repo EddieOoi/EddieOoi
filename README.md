@@ -30,13 +30,13 @@ I am a passionate interactive developer based in Klang, Selangor, Malaysia. My e
 <div align="center">
   <h3>👾 ─── [ LEVEL PROGRESSION GRID ] ─── 👾</h3>
 
-  <!-- Snake Game -->
-  <img src="https://raw.githubusercontent.com/EddieOoi/EddieOoi/output/github-contribution-grid-snake-dark.svg" alt="Snake Game" />
+  <!-- 1. Snake Game (Loaded from the output branch) -->
+  <img src="https://raw.githubusercontent.com/EddieOoi/EddieOoi/output/github-contribution-grid-snake-dark.svg" alt="Snake Contribution Grid" />
 
   <br /><br />
 
-  <!-- Space Shooter Game -->
-  <img src="https://raw.githubusercontent.com/EddieOoi/EddieOoi/output/space-shooter.gif" alt="Space Shooter Game" />
+  <!-- 2. Space Shooter Game (Loaded relative to your repository main root) -->
+  <img src="space-shooter.gif" alt="Space Shooter Contribution Grid" />
 </div>
 
 ```text
