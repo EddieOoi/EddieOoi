@@ -1,6 +1,12 @@
 <div align="center">
-  <img src="https://media.giphy.com/media/BpcMQqJoaPuhSWjOVV/giphy.gif" width="300" alt="Cat GIF" />
-  
+  <!-- Cat GIF with Snowfall Overlay -->
+  <div style="position: relative; display: inline-block; width: 300px;">
+    <img src="https://media.giphy.com/media/BpcMQqJoaPuhSWjOVV/giphy.gif" style="width: 100%; display: block;" alt="Cat GIF" />
+    <img src="https://user-images.githubusercontent.com/85169123/147171426-b8b8f80f-7b70-466a-93be-17b1156828b6.gif" 
+         style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; opacity: 0.7;" 
+         alt="Snowfall Effect" />
+  </div>
+
   <h2>Hi, I'm Eddie</h2>
   <br />
 
