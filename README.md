@@ -40,20 +40,15 @@ I am a passionate interactive developer based in Klang, Selangor, Malaysia. My e
 </div>
 
 <div align="center">
-  <h3>🎮 ─── [ MULTIPLAYER HUB // CONNECT ] ─── 🎮</h3>
+  <h3>👾 ─── [ LEVEL PROGRESSION GRID ] ─── 👾</h3>
 
-  <a href="https://eddieooi.github.io/3ddGemu-Portfolio/" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white" alt="Portfolio" />
-  </a>
-  <a href="mailto:eddie.weikit@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
-  </a>
-  <a href="https://github.com/EddieOoi" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-  <a href="https://www.linkedin.com/in/eddieooi" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
+  <!-- Snake Game -->
+  <img src="https://raw.githubusercontent.com/EddieOoi/EddieOoi/output/github-contribution-grid-snake-dark.svg" alt="Snake Game" />
+
+  <br /><br />
+
+  <!-- Space Shooter Game -->
+  <img src="https://raw.githubusercontent.com/EddieOoi/EddieOoi/output/space-shooter.gif" alt="Space Shooter Game" />
 </div>
 
 ```text
