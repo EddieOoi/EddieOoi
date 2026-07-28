@@ -1,10 +1,7 @@
 <div align="center">
   <a href="https://github.com/EddieOoi">
-    <img src="./header.svg" alt="Eddie Ooi — Dynamic Header" width="100%" />
+    <img src="assets/header.svg" alt="Eddie Ooi — Dynamic Header" width="100%" />
   </a>
-  <br /><br />
-
-  <img src="assets/rainbow-typing.svg" alt="Rainbow Header" />
 </div>
 
 ## 🚀 Character Profile
@@ -17,7 +14,7 @@
 
 ---
 
-## 🌐 Connect & Links:
+## 🌐 Connect & Links
 
 <div align="center">
   <a href="https://linkedin.com/in/eddieooi">
@@ -40,37 +37,21 @@
   </a>
 </div>
 
-
----
-
-## 💫 About Me
-
-* 🔭 **I’m currently working on:** Building interactive XR, AI-driven applications, and full-stack web solutions.
-* 👯 **I’m looking to collaborate on:** Immersive software technology, AR/VR experiences, and creative web programming projects.
-* 🤝 **I’m looking for help with:** Advanced 3D asset optimization and scaling multiplayer interactive frameworks.
-* 🌱 **I’m currently learning:** Next-level XR interaction models, advanced full-stack architectures, and AI integration.
-* 💬 **Ask me about:** XR/AR/VR development, Unity, C#, CodeIgniter, or web programming.
-* ⚡ **Fun fact:** Sleep hours = a floating point number. If it’s interactive, immersive, or impactful, I’m building it!
-
----
 ## 🏆 Stage Clear: Work & Leadership
 
-* **Associate Solutions Engineer at THEXRA SDN BHD** *(May 2026 - August 2026)*  
-  Engineered immersive XR and AI-driven applications for industrial safety training, and designed a comprehensive XR curriculum for the CelcomDigi Metaversity Internship Programme.
-* **XR Coordinator at THEXRA SDN BHD** *(Nov 2025 - May 2026)*  
-  Developed AR/VR applications and custom 3D assets, driving the end-to-end deployment of enterprise XR solutions.
-* **Online Manager at Jacvid Technology Supply & Service** *(March 2023 - June 2023)*  
-  Administered backend server operations for e-commerce storefronts across jacmore.com, Shopee, and Lazada.
-* **Software Developer Intern at ArrayHubs** *(August 2022 - February 2023)*  
-  Developed responsive web applications and custom WordPress CMS solutions using the CodeIgniter MVC framework, HTML, CSS, and JavaScript/jQuery.
+<div align="center">
+  <a href="https://github.com/EddieOoi">
+    <img src="assets/experience.svg" alt="Eddie Ooi Work & Leadership Experience" width="100%" />
+  </a>
+</div>
 
----
+## ⚔️ Development Philosophy
 
-## 💡 Development Philosophy
-
-* 💡 **Core Loop:** Turn complex logic into immersive, real-world digital experiences.
-* 🚀 **Deploy > Overthink:** Ideas are great, but working code in production is better.
-* 👥 **Multiplayer Mindset:** Passionate about building strong team dynamics, guiding projects from initial spawn to final boss.
+<div align="center">
+  <a href="https://github.com/EddieOoi">
+    <img src="assets/philosophy.svg" alt="Eddie Ooi Development Philosophy" width="100%" />
+  </a>
+</div>
 
 ---
 
