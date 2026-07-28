@@ -3,9 +3,9 @@
     <img src="https://media.giphy.com/media/BpcMQqJoaPuhSWjOVV/giphy.gif" style="width: 100%; display: block;" alt="Cat GIF" />
   </div>
   <h2>Hi, I'm Eddie</h2>
-  <a href="https://github.com/EddieOoi">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=9D4EDD&center=true&vCenter=true&width=500&height=50&lines=Full-Stack+%26+Mobile+Dev;XR+%26+Interactive+Software+Developer;Turning+Milk+%26+Matcha+into+Code" alt="Typing SVG" />
-  </a>
+ <a href="https://github.com/EddieOoi">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=FF007F&center=true&vCenter=true&width=500&height=50&lines=Full-Stack+%26+Mobile+Dev;XR+%26+Interactive+Software+Developer;Turning+Milk+%26+Matcha+into+Code" alt="Typing SVG" />
+</a>
 </div>
 
 ## 🌐 Connect & Links:
