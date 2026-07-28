@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://github.com/EddieOoi">
-    <img src="./header.svg" alt="Eddie Ooi — Dynamic Header" width="100%" />
+    <img src="assets/header.svg" alt="Eddie Ooi — Dynamic Header" width="100%" />
   </a>
   <img src="assets/rainbow-typing.svg" alt="Rainbow Header" />
 </div>
