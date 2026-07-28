@@ -101,7 +101,11 @@ I am a passionate interactive developer based in Klang, Selangor, Malaysia. My e
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
 ---
-![Views](https://img.shields.io/badge/Profile_Views-0070f3?style=for-the-badge&logo=github&logoColor=white)
+<div align="center">
+  <a href="https://github.com/EddieOoi">
+    <img src="https://img.shields.io/badge/⚡%20Join%20the%20Party%20%7C%20Follow%20Me-9D4EDD?style=for-the-badge&logo=github&logoColor=white" alt="Follow Eddie" />
+  </a>
+</div>
 
 ```text
 $ git diff dev-mindset.config
