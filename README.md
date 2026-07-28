@@ -1,9 +1,21 @@
 <div align="center">
   <a href="https://github.com/EddieOoi">
-    <img src="assets/header.svg" alt="Eddie Ooi — Dynamic Header" width="100%" />
+    <img src="./header.svg" alt="Eddie Ooi — Dynamic Header" width="100%" />
   </a>
+  <br /><br />
+
   <img src="assets/rainbow-typing.svg" alt="Rainbow Header" />
 </div>
+
+## 🚀 Character Profile
+
+<div align="center">
+  <a href="https://github.com/EddieOoi">
+    <img src="assets/whoami.svg" alt="Eddie Ooi Character Profile" width="100%" />
+  </a>
+</div>
+
+---
 
 ## 🌐 Connect & Links:
 
@@ -28,13 +40,6 @@
   </a>
 </div>
 
----
-
-## 🚀 Character Profile
-
-I am a passionate interactive developer based in Klang, Selangor, Malaysia. My expertise lies in interactive software technology, XR development, and web programming. I recently completed my Bachelor in Computer Science (Honours) from Tunku Abdul Rahman University of Management and Technology (TAR UMT). I love turning complex logic into immersive digital solutions and digitalizing workflows to solve real-world challenges.
-
-> 🟩 **Dev Creed:** *"If it’s interactive, immersive, or impactful, I’m building it."* 💪💪
 
 ---
 
@@ -91,6 +96,9 @@ I am a passionate interactive developer based in Klang, Selangor, Malaysia. My e
 ## 👾 Level Progression Grid
 
 <div align="center">
+  <div style="position: relative; display: inline-block; width: 300px;">
+    <img src="https://media.giphy.com/media/BpcMQqJoaPuhSWjOVV/giphy.gif" style="width: 100%; display: block;" alt="Cat GIF" />
+  </div>
   <img src="https://raw.githubusercontent.com/EddieOoi/EddieOoi/output/github-contribution-grid-snake-dark.svg" alt="Snake Contribution Grid" />
   <br /><br />
   <img src="space-shooter.gif" alt="Space Shooter Contribution Grid" />
