@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 290" width="100%" height="290">
+  <defs>
+    <!-- THEXRA Inspired Dark Gradient Background -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4a154b" />
+      <stop offset="40%" stop-color="#0f1738" />
+      <stop offset="80%" stop-color="#0a2540" />
+      <stop offset="100%" stop-color="#0052cc" />
+    </linearGradient>
+
+    <!-- Subtle Wave Gradient -->
+    <linearGradient id="wave-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00d2ff" stop-opacity="0.25" />
+      <stop offset="50%" stop-color="#9D4EDD" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#0052cc" stop-opacity="0.3" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .bg { fill: url(#bg-grad); rx: 12px; }
+    .border { fill: none; stroke: rgba(0, 210, 255, 0.3); stroke-width: 1.5; rx: 12px; }
+    
+    /* Window Dots */
+    .dot-red { fill: #ff5f56; }
+    .dot-yellow { fill: #ffbd2e; }
+    .dot-green { fill: #27c93f; }
+    .window-title { font-family: 'Fira Code', monospace; font-size: 11px; fill: rgba(255, 255, 255, 0.4); }
+
+    /* Code Terminal Syntax Highlighting */
+    .code-text { font-family: 'Fira Code', 'Courier New', monospace; font-size: 13px; line-height: 1.5; }
+    .keyword { fill: #ff79c6; font-weight: 700; }  /* const / let */
+    .var-name { fill: #50fa7b; font-weight: 600; } /* eddie */
+    .prop { fill: #00d2ff; }                      /* role, based, etc. */
+    .string { fill: #f1fa8c; }                    /* "values" */
+    .number { fill: #bd93f9; }                    /* numbers */
+    .comment { fill: #6272a4; font-style: italic; } /* // comments */
+    .bracket { fill: #ffffff; }                   /* { } [ ] */
+
+    /* Wave Animation */
+    @keyframes waveMove {
+      0% { transform: translateX(0px); }
+      50% { transform: translateX(-40px); }
+      100% { transform: translateX(0px); }
+    }
+    .wave { animation: waveMove 8s ease-in-out infinite; }
+
+    /* Cursor Flashing Animation */
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+    .cursor { fill: #00d2ff; animation: blink 0.8s infinite; }
+  </style>
+
+  <!-- Background Card -->
+  <rect width="800" height="290" class="bg" />
+  
+  <!-- Background Animated Waves -->
+  <g class="wave">
+    <path d="M-50 220 Q 150 160, 350 210 T 750 180 T 1150 220 L 1150 310 L -50 310 Z" fill="url(#wave-grad)" />
+    <path d="M-50 200 Q 200 240, 450 190 T 850 230 L 850 310 L -50 310 Z" fill="rgba(0, 210, 255, 0.08)" />
+  </g>
+
+  <rect width="800" height="290" class="border" />
+
+  <!-- Window Controls & Header -->
+  <circle cx="25" cy="22" r="5" class="dot-red" />
+  <circle cx="40" cy="22" r="5" class="dot-yellow" />
+  <circle cx="55" cy="22" r="5" class="dot-green" />
+  <text x="75" y="26" class="window-title">eddieooi ~ /character-profile</text>
+
+  <!-- Code Object (whoami) -->
+  <g transform="translate(30, 60)" class="code-text">
+    <!-- const eddie = { -->
+    <text x="0" y="0">
+      <tspan class="keyword">const</tspan> <tspan class="var-name">eddie</tspan> <tspan class="bracket">= {</tspan>
+    </text>
+
+    <!-- Properties -->
+    <text x="25" y="24">
+      <tspan class="prop">role:</tspan> <tspan class="string">"Associate Solutions Engineer @ THEXRA"</tspan><tspan class="bracket">,</tspan>
+    </text>
+
+    <text x="25" y="48">
+      <tspan class="prop">based:</tspan> <tspan class="string">"Klang, Selangor, Malaysia"</tspan><tspan class="bracket">,</tspan>
+    </text>
+
+    <text x="25" y="72">
+      <tspan class="prop">degree:</tspan> <tspan class="string">"B.CS (Honours) @ TAR UMT '26"</tspan><tspan class="bracket">,</tspan>
+    </text>
+
+    <text x="25" y="96">
+      <tspan class="prop">focus:</tspan> <tspan class="bracket">[</tspan><tspan class="string">"XR/AR/VR Development"</tspan><tspan class="bracket">, </tspan><tspan class="string">"AI Integration"</tspan><tspan class="bracket">, </tspan><tspan class="string">"Full-Stack Web"</tspan><tspan class="bracket">],</tspan>
+    </text>
+
+    <text x="25" y="120">
+      <tspan class="prop">builds:</tspan> <tspan class="bracket">[</tspan><tspan class="string">"Interactive Software"</tspan><tspan class="bracket">, </tspan><tspan class="string">"Unity / C#"</tspan><tspan class="bracket">, </tspan><tspan class="string">"3D Optimization"</tspan><tspan class="bracket">],</tspan>
+    </text>
+
+    <text x="25" y="144">
+      <tspan class="prop">open_to:</tspan> <tspan class="string">"Immersive Software Collaborations &amp; Web Projects"</tspan><tspan class="bracket">,</tspan>
+    </text>
+
+    <text x="25" y="168">
+      <tspan class="prop">creed:</tspan> <tspan class="string">"If it's interactive or impactful, I'm building it!"</tspan> <tspan class="comment">// ⚡💪</tspan>
+    </text>
+
+    <!-- Closing Bracket -->
+    <text x="0" y="194">
+      <tspan class="bracket">};</tspan>
+    </text>
+
+    <!-- Cursor -->
+    <rect x="25" y="181" width="8" height="16" class="cursor" />
+  </g>
+
+  <!-- Live Pulse Status Indicator -->
+  <circle cx="755" cy="25" r="4" fill="#00d2ff" />
+  <circle cx="755" cy="25" r="8" fill="#00d2ff" opacity="0.4">
+    <animate attributeName="r" values="4;10;4" dur="2s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0.6;0;0.6" dur="2s" repeatCount="indefinite" />
+  </circle>
+</svg>

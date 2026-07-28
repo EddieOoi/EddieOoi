@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" width="100%" height="420">
+  <defs>
+    <!-- THEXRA Inspired Dark Gradient Background -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4a154b" />
+      <stop offset="40%" stop-color="#0f1738" />
+      <stop offset="80%" stop-color="#0a2540" />
+      <stop offset="100%" stop-color="#0052cc" />
+    </linearGradient>
+
+    <!-- Wave Background Gradient -->
+    <linearGradient id="wave-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00d2ff" stop-opacity="0.25" />
+      <stop offset="50%" stop-color="#9D4EDD" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#0052cc" stop-opacity="0.3" />
+    </linearGradient>
+
+    <!-- Progress Bar Gradient -->
+    <linearGradient id="bar-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00d2ff" />
+      <stop offset="100%" stop-color="#9D4EDD" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .bg { fill: url(#bg-grad); rx: 12px; }
+    .border { fill: none; stroke: rgba(0, 210, 255, 0.3); stroke-width: 1.5; rx: 12px; }
+    
+    /* Window Controls */
+    .dot-red { fill: #ff5f56; }
+    .dot-yellow { fill: #ffbd2e; }
+    .dot-green { fill: #27c93f; }
+    .window-title { font-family: 'Fira Code', monospace; font-size: 11px; fill: rgba(255, 255, 255, 0.4); }
+
+    /* Gaming HUD Typography */
+    .hud-title { font-family: 'Fira Code', monospace; font-size: 13px; font-weight: 800; fill: #ffffff; letter-spacing: 0.5px; }
+    .hud-badge { font-family: 'Fira Code', monospace; font-size: 10px; font-weight: 700; fill: #00d2ff; }
+    .hud-desc { font-family: 'Fira Code', monospace; font-size: 12px; fill: #c9d1d9; }
+    .stat-label { font-family: 'Fira Code', monospace; font-size: 11px; font-weight: 700; fill: #9D4EDD; letter-spacing: 0.5px; }
+    .stat-val { font-family: 'Fira Code', monospace; font-size: 11px; font-weight: 700; fill: #00d2ff; }
+
+    /* UI Panels & Containers */
+    .hud-card { fill: rgba(10, 37, 64, 0.55); stroke: rgba(0, 210, 255, 0.25); stroke-width: 1; rx: 8px; }
+    .badge-bg { fill: rgba(0, 210, 255, 0.15); stroke: #00d2ff; stroke-width: 1; rx: 4px; }
+    .bar-bg { fill: rgba(255, 255, 255, 0.08); rx: 3px; }
+    .bar-fill { fill: url(#bar-grad); rx: 3px; }
+
+    /* Wave Animation */
+    @keyframes waveMove {
+      0% { transform: translateX(0px); }
+      50% { transform: translateX(-40px); }
+      100% { transform: translateX(0px); }
+    }
+    .wave { animation: waveMove 8s ease-in-out infinite; }
+  </style>
+
+  <!-- Background Card -->
+  <rect width="800" height="420" class="bg" />
+  
+  <!-- Animated Background Waves -->
+  <g class="wave">
+    <path d="M-50 350 Q 150 290, 350 340 T 750 310 T 1150 350 L 1150 440 L -50 440 Z" fill="url(#wave-grad)" />
+    <path d="M-50 330 Q 200 370, 450 320 T 850 360 L 850 440 L -50 440 Z" fill="rgba(0, 210, 255, 0.08)" />
+  </g>
+
+  <rect width="800" height="420" class="border" />
+
+  <!-- Window Controls Header -->
+  <circle cx="25" cy="22" r="5" class="dot-red" />
+  <circle cx="40" cy="22" r="5" class="dot-yellow" />
+  <circle cx="55" cy="22" r="5" class="dot-green" />
+  <text x="75" y="26" class="window-title">eddieooi ~ /development-philosophy [QUEST_LOG]</text>
+
+  <!-- MAIN GAMING QUEST CARDS -->
+
+  <!-- QUEST 1: User Experience First -->
+  <g transform="translate(25, 55)">
+    <rect width="750" height="105" class="hud-card" />
+    <rect x="18" y="14" width="85" height="20" class="badge-bg" />
+    <text x="25" y="28" class="hud-badge">QUEST 01</text>
+    <text x="115" y="29" class="hud-title">USER EXPERIENCE FIRST</text>
+    <text x="732" y="29" class="stat-label" text-anchor="end">PRIORITY: <tspan class="stat-val">MAX</tspan></text>
+    
+    <text x="18" y="56" class="hud-desc">Build intuitive, fluid, and visually rewarding interfaces that leave a lasting impression.</text>
+    
+    <!-- Progress Bar (Positioned nicely below text) -->
+    <rect x="18" y="76" width="714" height="6" class="bar-bg" />
+    <rect x="18" y="76" width="714" height="6" class="bar-fill" />
+  </g>
+
+  <!-- QUEST 2: Clean & Scalable Code -->
+  <g transform="translate(25, 175)">
+    <rect width="750" height="105" class="hud-card" />
+    <rect x="18" y="14" width="85" height="20" class="badge-bg" />
+    <text x="25" y="28" class="hud-badge">QUEST 02</text>
+    <text x="115" y="29" class="hud-title">CLEAN &amp; SCALABLE CODE</text>
+    <text x="732" y="29" class="stat-label" text-anchor="end">BUFF: <tspan class="stat-val">+100 MAINTAINABILITY</tspan></text>
+    
+    <text x="18" y="56" class="hud-desc">Maintain modular architectures, refactor continuously, and write clean, self-documenting code.</text>
+    
+    <!-- Progress Bar (Positioned nicely below text) -->
+    <rect x="18" y="76" width="714" height="6" class="bar-bg" />
+    <rect x="18" y="76" width="650" height="6" class="bar-fill" />
+  </g>
+
+  <!-- QUEST 3: Continuous Leveling -->
+  <g transform="translate(25, 295)">
+    <rect width="750" height="105" class="hud-card" />
+    <rect x="18" y="14" width="85" height="20" class="badge-bg" />
+    <text x="25" y="28" class="hud-badge">QUEST 03</text>
+    <text x="115" y="29" class="hud-title">CONTINUOUS LEVELING</text>
+    <text x="732" y="29" class="stat-label" text-anchor="end">EXP: <tspan class="stat-val">ALWAYS GAINING</tspan></text>
+    
+    <text x="18" y="56" class="hud-desc">Embrace emerging XR/AI tech stack trends, adapt swiftly, and never stop experimenting.</text>
+    
+    <!-- Progress Bar (Positioned nicely below text) -->
+    <rect x="18" y="76" width="714" height="6" class="bar-bg" />
+    <rect x="18" y="76" width="680" height="6" class="bar-fill" />
+  </g>
+
+  <!-- Live Pulse Status Indicator -->
+  <circle cx="755" cy="25" r="4" fill="#00d2ff" />
+  <circle cx="755" cy="25" r="8" fill="#00d2ff" opacity="0.4">
+    <animate attributeName="r" values="4;10;4" dur="2s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0.6;0;0.6" dur="2s" repeatCount="indefinite" />
+  </circle>
+</svg>
