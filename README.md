@@ -90,7 +90,7 @@ I am a passionate interactive developer based in Klang, Selangor, Malaysia. My e
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
 ---
-[![](https://komarev.com/ghpvc/?username=EddieOoi&icon=0&color=0)](https://visitcount.itsvg.in)
+[![](https://komarev.com/ghpvc/?username=EddieOoi&icon=1&color=1)](https://visitcount.itsvg.in)
 
 ```text
 $ git diff dev-mindset.config
