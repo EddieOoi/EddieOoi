@@ -1,0 +1,59 @@
+<svg fill="none" viewBox="0 0 800 65" width="100%" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cyber-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0d14" />
+      <stop offset="50%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#05070a" />
+    </linearGradient>
+
+    <linearGradient id="neon-cyan-purple" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2fe" />
+      <stop offset="50%" stop-color="#9d4edd" />
+      <stop offset="100%" stop-color="#f72585" />
+    </linearGradient>
+
+    <linearGradient id="stage-badge-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f2fe" />
+      <stop offset="100%" stop-color="#7928ca" />
+    </linearGradient>
+
+    <linearGradient id="center-line-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1f293d" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#00f2fe" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#1f293d" stop-opacity="0.8" />
+    </linearGradient>
+
+    <filter id="neon-glow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .stage-num { font-family: 'Fira Code', 'Courier New', monospace; font-weight: 900; font-size: 13px; fill: #0a0d14; }
+    .title-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 800; font-size: 18px; fill: #ffffff; letter-spacing: 0.8px; }
+    .cyber-tag { font-family: 'Fira Code', monospace; font-size: 10px; fill: #f72585; letter-spacing: 1.5px; font-weight: 700; }
+  </style>
+
+  <rect x="1" y="1" width="798" height="60" rx="6" fill="url(#cyber-bg)" stroke="#1f293d" stroke-width="1.5" />
+
+  <path d="M 6 15 L 6 6 L 15 6" fill="none" stroke="#00f2fe" stroke-width="2" />
+  <path d="M 794 15 L 794 6 L 785 6" fill="none" stroke="#00f2fe" stroke-width="2" />
+  <path d="M 6 47 L 6 56 L 15 56" fill="none" stroke="#f72585" stroke-width="2" />
+  <path d="M 794 47 L 794 56 L 785 56" fill="none" stroke="#f72585" stroke-width="2" />
+
+  <rect x="20" y="18" width="32" height="24" rx="4" fill="url(#stage-badge-grad)" filter="url(#neon-glow)" />
+  <text x="28" y="35" class="stage-num">01</text>
+
+  <text x="68" y="34" class="title-text">CHARACTER PROFILE</text>
+
+  <!-- Center Connecting Line -->
+  <line x1="285" y1="30" x2="695" y2="30" stroke="url(#center-line-grad)" stroke-width="1.5" />
+
+  <text x="710" y="34" class="cyber-tag">SYS::ACT</text>
+
+  <rect x="1" y="58" width="798" height="3" rx="1.5" fill="url(#neon-cyan-purple)" filter="url(#neon-glow)" />
+</svg>
