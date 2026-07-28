@@ -3,19 +3,6 @@
     <img src="assets/header.svg" alt="Eddie Ooi — Dynamic Header" width="100%" />
   </a>
 </div>
-
-## 🚀 Character Profile
-
-<div align="center">
-  <a href="https://github.com/EddieOoi">
-    <img src="assets/whoami.svg" alt="Eddie Ooi Character Profile" width="100%" />
-  </a>
-</div>
-
----
-
-## 🌐 Connect & Links
-
 <div align="center">
   <a href="https://linkedin.com/in/eddieooi">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
@@ -36,7 +23,15 @@
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
   </a>
 </div>
+## 🚀 Character Profile
 
+<div align="center">
+  <a href="https://github.com/EddieOoi">
+    <img src="assets/whoami.svg" alt="Eddie Ooi Character Profile" width="100%" />
+  </a>
+</div>
+
+---
 ## 🏆 Stage Clear: Work & Leadership
 
 <div align="center">
