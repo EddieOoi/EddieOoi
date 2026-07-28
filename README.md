@@ -8,33 +8,6 @@
   </a>
 </div>
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/eddieooi"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="https://www.facebook.com/eddie.ooiweikit"><img src="https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white" alt="Facebook"></a>
-  <a href="https://www.instagram.com/weikit_001/"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white" alt="Instagram"></a>
-  <a href="mailto:eddie.weikit@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white" alt="Email"></a>
-</p>
-
----
-
-## 🚀 Character Profile
-
-I am a passionate interactive developer based in Klang, Selangor, Malaysia. My expertise lies in interactive software technology, XR development, and web programming. I recently completed my Bachelor in Computer Science (Honours) from Tunku Abdul Rahman University of Management and Technology (TAR UMT). I love turning complex logic into immersive digital solutions and digitalizing workflows to solve real-world challenges.
-
-> 🟩 **Dev Creed:** *"If it’s interactive, immersive, or impactful, I’m building it."* 💪💪
-
----
-
-## 💫 About Me
-
-* 🔭 **I’m currently working on:** Building interactive XR, AI-driven applications, and full-stack web solutions.
-* 👯 **I’m looking to collaborate on:** Immersive software technology, AR/VR experiences, and creative web programming projects.
-* 🤝 **I’m looking for help with:** Advanced 3D asset optimization and scaling multiplayer interactive frameworks.
-* 🌱 **I’m currently learning:** Next-level XR interaction models, advanced full-stack architectures, and AI integration.
-* 💬 **Ask me about:** XR/AR/VR development, Unity, C#, CodeIgniter, or web programming.
-* ⚡ **Fun fact:** Sleep hours = a floating point number. If it’s interactive, immersive, or impactful, I’m building it!
-
----
 ## 🌐 Connect & Links:
 
 <div align="center">
@@ -58,6 +31,26 @@ I am a passionate interactive developer based in Klang, Selangor, Malaysia. My e
   </a>
 </div>
 
+---
+
+## 🚀 Character Profile
+
+I am a passionate interactive developer based in Klang, Selangor, Malaysia. My expertise lies in interactive software technology, XR development, and web programming. I recently completed my Bachelor in Computer Science (Honours) from Tunku Abdul Rahman University of Management and Technology (TAR UMT). I love turning complex logic into immersive digital solutions and digitalizing workflows to solve real-world challenges.
+
+> 🟩 **Dev Creed:** *"If it’s interactive, immersive, or impactful, I’m building it."* 💪💪
+
+---
+
+## 💫 About Me
+
+* 🔭 **I’m currently working on:** Building interactive XR, AI-driven applications, and full-stack web solutions.
+* 👯 **I’m looking to collaborate on:** Immersive software technology, AR/VR experiences, and creative web programming projects.
+* 🤝 **I’m looking for help with:** Advanced 3D asset optimization and scaling multiplayer interactive frameworks.
+* 🌱 **I’m currently learning:** Next-level XR interaction models, advanced full-stack architectures, and AI integration.
+* 💬 **Ask me about:** XR/AR/VR development, Unity, C#, CodeIgniter, or web programming.
+* ⚡ **Fun fact:** Sleep hours = a floating point number. If it’s interactive, immersive, or impactful, I’m building it!
+
+---
 ## 🏆 Stage Clear: Work & Leadership
 
 * **Associate Solutions Engineer at THEXRA SDN BHD** *(May 2026 - August 2026)*  
