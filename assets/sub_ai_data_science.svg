@@ -1,0 +1,24 @@
+<svg fill="none" viewBox="0 0 600 35" width="100%" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="line-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3a0ca3" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#1f293d" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .sub-title { font-family: 'Fira Code', 'Courier New', monospace; font-size: 12px; fill: #4cc9f0; font-weight: 700; letter-spacing: 1.5px; }
+  </style>
+
+  <rect x="1" y="1" width="598" height="33" rx="4" fill="#0a0d14" stroke="#1f293d" stroke-width="1"/>
+  <rect x="1" y="1" width="3" height="33" rx="1.5" fill="#4cc9f0"/>
+
+  <!-- Blinking Animated Arrow -->
+  <text x="14" y="21" class="sub-title">▸
+    <animate attributeName="opacity" values="1;0.2;1" dur="1.5s" repeatCount="indefinite"/>
+  </text>
+
+  <text x="32" y="21" class="sub-title">[04] AI &amp; DATA SCIENCE</text>
+
+  <line x1="260" y1="18" x2="585" y2="18" stroke="url(#line-grad)" stroke-width="1" stroke-dasharray="4 4"/>
+</svg>
