@@ -1,9 +1,8 @@
 <div align="center">
-  <div style="position: relative; display: inline-block; width: 300px;">
-    <img src="https://media.giphy.com/media/BpcMQqJoaPuhSWjOVV/giphy.gif" style="width: 100%; display: block;" alt="Cat GIF" />
-  </div>
-  <h2>Hi, I'm Eddie</h2>
-<img src="./rainbow-typing.svg" alt="Rainbow Header" />
+  <a href="https://github.com/EddieOoi">
+    <img src="./header.svg" alt="Eddie Ooi — Dynamic Header" width="100%" />
+  </a>
+  <img src="assets/rainbow-typing.svg" alt="Rainbow Header" />
 </div>
 
 ## 🌐 Connect & Links:
