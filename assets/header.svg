@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 180" width="100%" height="180">
   <defs>
     <!-- THEXRA Inspired Gradient Background -->
-    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="bg-grad-head" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#4a154b" />
       <stop offset="40%" stop-color="#0f1738" />
       <stop offset="80%" stop-color="#0a2540" />
@@ -9,7 +9,7 @@
     </linearGradient>
 
     <!-- Cyan/Blue Wave Gradient -->
-    <linearGradient id="wave-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="wave-grad-head" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#00d2ff" stop-opacity="0.3" />
       <stop offset="50%" stop-color="#9D4EDD" stop-opacity="0.2" />
       <stop offset="100%" stop-color="#0052cc" stop-opacity="0.4" />
@@ -17,125 +17,125 @@
   </defs>
 
   <style>
-    .bg { fill: url(#bg-grad); rx: 12px; }
-    .border { fill: none; stroke: rgba(0, 210, 255, 0.3); stroke-width: 1.5; rx: 12px; }
+    .bg-head { fill: url(#bg-grad-head); rx: 12px; }
+    .border-head { fill: none; stroke: rgba(0, 210, 255, 0.3); stroke-width: 1.5; rx: 12px; }
     
     /* Window Dots */
-    .dot-red { fill: #ff5f56; }
-    .dot-yellow { fill: #ffbd2e; }
-    .dot-green { fill: #27c93f; }
+    .dot-red-head { fill: #ff5f56; }
+    .dot-yellow-head { fill: #ffbd2e; }
+    .dot-green-head { fill: #27c93f; }
 
     /* Text Styles */
-    .static-title { font-family: 'Fira Code', 'Courier New', monospace; font-weight: 800; font-size: 26px; fill: #ffffff; }
-    .tag { font-family: 'Fira Code', 'Courier New', monospace; font-size: 11px; fill: #ffffff; }
-    .header-tag-text { font-family: 'Fira Code', 'Courier New', monospace; font-size: 11px; font-weight: 700; fill: #00d2ff; letter-spacing: 0.5px; }
+    .static-title-head { font-family: 'Fira Code', 'Courier New', monospace; font-weight: 800; font-size: 26px; fill: #ffffff; }
+    .typed-text-head { font-family: 'Fira Code', 'Courier New', monospace; font-size: 22px; font-weight: 600; fill: #00d2ff; }
     
-    .tag-bg { fill: rgba(10, 37, 64, 0.6); stroke: rgba(0, 210, 255, 0.4); stroke-width: 1; rx: 6px; }
-    .header-tag-bg { fill: rgba(157, 78, 221, 0.25); stroke: #9D4EDD; stroke-width: 1; rx: 12px; }
-
-    /* In-line Typing Text Animation */
-    .typed-text {
-      font-family: 'Fira Code', 'Courier New', monospace;
-      font-size: 20px;
-      font-weight: 600;
-      fill: #00d2ff;
-    }
+    .tag-head { font-family: 'Fira Code', 'Courier New', monospace; font-size: 11px; fill: #ffffff; }
+    .header-tag-text-head { font-family: 'Fira Code', 'Courier New', monospace; font-size: 11px; font-weight: 700; fill: #00d2ff; letter-spacing: 0.5px; }
+    
+    .tag-bg-head { fill: rgba(10, 37, 64, 0.6); stroke: rgba(0, 210, 255, 0.4); stroke-width: 1; rx: 6px; }
+    .header-tag-bg-head { fill: rgba(157, 78, 221, 0.25); stroke: #9D4EDD; stroke-width: 1; rx: 12px; }
 
     /* Wave Motion Animation */
-    @keyframes waveMove {
+    @keyframes waveMoveHead {
       0% { transform: translateX(0px); }
       50% { transform: translateX(-40px); }
       100% { transform: translateX(0px); }
     }
-    .wave {
-      animation: waveMove 8s ease-in-out infinite;
+    .wave-head {
+      animation: waveMoveHead 8s ease-in-out infinite;
     }
 
     /* Cursor Flashing Animation */
-    @keyframes blink {
+    @keyframes blinkHead {
       0%, 100% { opacity: 1; }
       50% { opacity: 0; }
     }
-    .cursor {
+    .cursor-head {
       fill: #00d2ff;
-      animation: blink 0.8s infinite;
+      animation: blinkHead 0.8s infinite;
     }
   </style>
 
   <!-- Background Card -->
-  <rect width="800" height="180" class="bg" />
+  <rect width="800" height="180" class="bg-head" />
   
-  <!-- Animated Background Waves (THEXRA Style) -->
-  <g class="wave">
-    <path d="M-50 140 Q 150 80, 350 130 T 750 100 T 1150 140 L 1150 200 L -50 200 Z" fill="url(#wave-grad)" />
+  <!-- Animated Background Waves -->
+  <g class="wave-head">
+    <path d="M-50 140 Q 150 80, 350 130 T 750 100 T 1150 140 L 1150 200 L -50 200 Z" fill="url(#wave-grad-head)" />
     <path d="M-50 120 Q 200 160, 450 110 T 850 150 L 850 200 L -50 200 Z" fill="rgba(0, 210, 255, 0.1)" />
   </g>
 
-  <rect width="800" height="180" class="border" />
+  <rect width="800" height="180" class="border-head" />
 
   <!-- Window Controls -->
-  <circle cx="25" cy="22" r="5" class="dot-red" />
-  <circle cx="40" cy="22" r="5" class="dot-yellow" />
-  <circle cx="55" cy="22" r="5" class="dot-green" />
+  <circle cx="25" cy="22" r="5" class="dot-red-head" />
+  <circle cx="40" cy="22" r="5" class="dot-yellow-head" />
+  <circle cx="55" cy="22" r="5" class="dot-green-head" />
 
-  <!-- Header Title with In-Line Typing Effect -->
+  <!-- Header Title with Non-Overlapping In-Line Typing Effect -->
   <g transform="translate(25, 62)">
-    <text x="0" y="0" class="static-title">EDDIE OOI <tspan fill="#9D4EDD">|</tspan></text>
+    <text x="0" y="0" class="static-title-head">EDDIE OOI <tspan fill="#9D4EDD">|</tspan></text>
     
-    <!-- Typing Text Loop using SVG Switch/Animate -->
-    <text x="180" y="-2" class="typed-text">
-      <animate 
-        attributeName="opacity" 
-        values="1;1;0;0;1" 
-        keyTimes="0;0.45;0.5;0.95;1" 
-        dur="6s" 
-        repeatCount="indefinite" />
-      <tspan>XR &amp; AI Dev</tspan>
-    </text>
-    <text x="180" y="-2" class="typed-text">
-      <animate 
-        attributeName="opacity" 
-        values="0;0;1;1;0" 
-        keyTimes="0;0.48;0.52;0.95;1" 
-        dur="6s" 
-        repeatCount="indefinite" />
-      <tspan>Full-Stack Dev</tspan>
-    </text>
+    <!-- Word 1: XR & AI Dev -->
+    <g transform="translate(185, 0)">
+      <text x="0" y="-1" class="typed-text-head">
+        <animate 
+          attributeName="opacity" 
+          values="1;1;0;0;1" 
+          keyTimes="0;0.45;0.5;0.95;1" 
+          dur="6s" 
+          repeatCount="indefinite" />
+        XR &amp; AI Dev
+      </text>
+    </g>
 
-    <!-- Flashing Cursor -->
-    <rect x="335" y="-20" width="10" height="22" class="cursor" />
+    <!-- Word 2: Full-Stack Dev -->
+    <g transform="translate(185, 0)">
+      <text x="0" y="-1" class="typed-text-head">
+        <animate 
+          attributeName="opacity" 
+          values="0;0;1;1;0" 
+          keyTimes="0;0.48;0.52;0.95;1" 
+          dur="6s" 
+          repeatCount="indefinite" />
+        Full-Stack Dev
+      </text>
+    </g>
+
+    <!-- Flashing Cursor (Positioned clearly past text) -->
+    <rect x="365" y="-20" width="10" height="22" class="cursor-head" />
   </g>
 
   <!-- Distinct Header Pill Badges: RESPAWN · REFACTOR · RELEASE -->
-  <g transform="translate(25, 82)">
+  <g transform="translate(25, 84)">
     <!-- Tag 1: RESPAWN -->
     <g transform="translate(0, 0)">
-      <rect width="85" height="22" class="header-tag-bg" />
-      <text x="12" y="15" class="header-tag-text">RESPAWN</text>
+      <rect width="85" height="22" class="header-tag-bg-head" />
+      <text x="12" y="15" class="header-tag-text-head">RESPAWN</text>
     </g>
 
     <!-- Tag 2: REFACTOR -->
     <g transform="translate(93, 0)">
-      <rect width="90" height="22" class="header-tag-bg" />
-      <text x="12" y="15" class="header-tag-text">REFACTOR</text>
+      <rect width="90" height="22" class="header-tag-bg-head" />
+      <text x="12" y="15" class="header-tag-text-head">REFACTOR</text>
     </g>
 
     <!-- Tag 3: RELEASE -->
     <g transform="translate(191, 0)">
-      <rect width="85" height="22" class="header-tag-bg" />
-      <text x="12" y="15" class="header-tag-text">RELEASE</text>
+      <rect width="85" height="22" class="header-tag-bg-head" />
+      <text x="12" y="15" class="header-tag-text-head">RELEASE</text>
     </g>
   </g>
 
   <!-- Location & Degree Badges -->
   <g transform="translate(25, 128)">
-    <rect width="150" height="26" class="tag-bg" />
-    <text x="12" y="17" class="tag">📍 Klang, Malaysia</text>
+    <rect width="150" height="26" class="tag-bg-head" />
+    <text x="12" y="17" class="tag-head">📍 Klang, Malaysia</text>
   </g>
 
   <g transform="translate(185, 128)">
-    <rect width="190" height="26" class="tag-bg" />
-    <text x="12" y="17" class="tag">🎓 CS Graduate (Honours)</text>
+    <rect width="190" height="26" class="tag-bg-head" />
+    <text x="12" y="17" class="tag-head">🎓 CS Graduate (Honours)</text>
   </g>
 
   <!-- Live Pulse Dot -->
