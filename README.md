@@ -3,7 +3,7 @@
     <img src="https://media.giphy.com/media/BpcMQqJoaPuhSWjOVV/giphy.gif" style="width: 100%; display: block;" alt="Cat GIF" />
   </div>
   <h2>Hi, I'm Eddie</h2>
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,5,10,12&height=180&section=header&text=Full-Stack%20%26%20XR%20Developer&fontSize=24&animation=twinkling&fontColor=fff" />
+<img src="./rainbow-typing.svg" alt="Rainbow Header" />
 </div>
 
 ## 🌐 Connect & Links:
