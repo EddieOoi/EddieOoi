@@ -19,13 +19,14 @@ jobs:
     timeout-minutes: 5
 
     steps:
-      # Generate the Pac-Man animation SVG
+      # Generate both Pac-Man and Bomberman animation SVGs
       - name: Generate Pacman Animation
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
+          games: 'pacman,bomberman'
 
-      # Push the generated SVG file to your output branch
+      # Push the generated SVG files to your output branch
       - name: Push Pacman SVG to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
