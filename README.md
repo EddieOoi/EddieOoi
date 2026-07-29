@@ -152,36 +152,43 @@
 <div align="center">
   <h3><code>eddie@github ~ $ ./start_arcade.sh</code></h3>
 
-  <!-- Cat & Snake Animation -->
-  <div align="center">
-    <img src="https://media.giphy.com/media/BpcMQqJoaPuhSWjOVV/giphy.gif" width="220" alt="Cat GIF" />
-    <br /><br />
-    <img src="https://raw.githubusercontent.com/EddieOoi/EddieOoi/output/github-contribution-grid-snake-dark.svg" width="860" alt="Snake Contribution Grid" />
-  </div>
-
+  <!-- 1. Snake Game Section -->
+  <img src="https://media.giphy.com/media/BpcMQqJoaPuhSWjOVV/giphy.gif" width="220" alt="Cat GIF" />
+  <br />
+  <br />
+  <img src="assets/title-snake.svg" width="100%" alt="Snake Game Title" />
+  <br />
+  <br />
+  <img src="https://raw.githubusercontent.com/EddieOoi/EddieOoi/output/github-contribution-grid-snake-dark.svg" width="860" alt="Snake Contribution Grid" />
+  <br />
   <br />
 
-  <!-- Space Shooter Animation -->
-  <div align="center">
-    <img src="space-shooter.gif" width="860" alt="Space Shooter Contribution Grid" />
-  </div>
-</div>
+  <!-- 2. Spaceship Shooter Section -->
+  <img src="assets/title-spaceship.svg" width="100%" alt="Space Shooter Title" />
+  <br />
+  <br />
+  <img src="space-shooter.gif" width="860" alt="Space Shooter Contribution Grid" />
+  <br />
+  <br />
 
-<br />
-
-  <!-- Pac Man Animation -->
-<div align="center">
+  <!-- 3. Pacman Section -->
+  <img src="assets/title-pacman.svg" width="100%" alt="Pacman Title" />
+  <br />
+  <br />
   <img src="https://raw.githubusercontent.com/EddieOoi/EddieOoi/output/pacman-contribution-graph-dark.svg" alt="Eddie Ooi's Pac-Man Contribution Graph" width="100%" />
+  <br />
+  <br />
+
+  <!-- 4. Bomberman Section -->
+  <img src="assets/title-bomberman.svg" width="100%" alt="Bomberman Title" />
+  <br />
+  <br />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/EddieOoi/EddieOoi/output/bomberman-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/EddieOoi/EddieOoi/output/bomberman-contribution-graph.svg">
+    <img alt="bomberman contribution graph" src="https://raw.githubusercontent.com/EddieOoi/EddieOoi/output/bomberman-contribution-graph.svg" width="100%">
+  </picture>
 </div>
-
-<br />
-
-<!-- Bomberman Contribution Graph -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/EddieOoi/EddieOoi/output/bomberman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/EddieOoi/EddieOoi/output/bomberman-contribution-graph.svg">
-  <img alt="bomberman contribution graph" src="https://raw.githubusercontent.com/EddieOoi/EddieOoi/output/bomberman-contribution-graph.svg">
-</picture>
 
 <br />
 
