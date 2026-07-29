@@ -17,7 +17,16 @@ jobs:
     timeout-minutes: 5
 
     steps:
-      # Step 1: Generate Snake SVGs
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Step 1: Create dist folder with full write permissions
+      - name: Setup output directory
+        run: |
+          mkdir -p dist
+          chmod -R 777 dist
+
+      # Step 2: Generate Snake SVGs
       - name: Generate Snake Animation
         uses: Platane/snk@v3
         with:
@@ -26,14 +35,18 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      # Step 2: Generate Pac-Man & Bomberman SVGs
+      # Step 3: Ensure permissions remain open for Pacman
+      - name: Fix permissions for next step
+        run: sudo chmod -R 777 dist
+
+      # Step 4: Generate Pac-Man & Bomberman SVGs
       - name: Generate Pacman & Bomberman Animations
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
           games: 'pacman,bomberman'
 
-      # Step 3: Push ALL generated SVGs together in ONE commit
+      # Step 5: Push ALL generated SVGs together to output branch
       - name: Push all SVGs to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
