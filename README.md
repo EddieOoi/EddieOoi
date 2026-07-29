@@ -176,6 +176,15 @@
 
 <br />
 
+<!-- Bomberman Contribution Graph -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/EddieOoi/EddieOoi/output/bomberman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/EddieOoi/EddieOoi/output/bomberman-contribution-graph.svg">
+  <img alt="bomberman contribution graph" src="https://raw.githubusercontent.com/EddieOoi/EddieOoi/output/bomberman-contribution-graph.svg">
+</picture>
+
+<br />
+
 <img src="assets/s06_random_dev_quote.svg" alt="06 - Random Quote" width="100%" />
 
 <div align="center">
