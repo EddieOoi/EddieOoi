@@ -3,6 +3,9 @@
     <img src="assets/header.svg" alt="Eddie Ooi — Dynamic Header" width="100%" />
   </a>
 </div>
+
+<br />
+
 <div align="center">
   <a href="https://linkedin.com/in/eddieooi">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
@@ -23,6 +26,9 @@
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
   </a>
 </div>
+
+<br />
+
 <img src="assets/s01_character_profile.svg" alt="01 — Character Profile" width="100%" />
 
 <div align="center">
@@ -30,6 +36,19 @@
     <img src="assets/whoami.svg" alt="Eddie Ooi Character Profile" width="100%" />
   </a>
 </div>
+
+<!-- TERMINAL PORTRAIT & CONTRIBUTION HEATMAP -->
+<div align="center">
+  <h3><code>eddie@github ~ $ ./render_profile.sh --ascii</code></h3>
+  <img src="./github-heatmap-art/output/eddie-ascii.svg" width="520" alt="Eddie Ooi ASCII Portrait" />
+  
+  <br /><br />
+  
+  <h3><code>eddie@github ~ $ ./contributions.sh --matrix</code></h3>
+  <img src="./github-heatmap-art/output/contrib-heatmap.svg" width="860" alt="Eddie Ooi GitHub Contribution Heatmap Matrix" />
+</div>
+
+<br />
 
 ---
 <img src="assets/s02_work_and_leadership.svg" alt="02 — Work & Leadership" width="100%" />
@@ -124,21 +143,31 @@
 
 ---
 
+<!-- SECTION 05: LEVEL PROGRESSION -->
 <img src="assets/s05_level_progression_grid.svg" alt="05 — Level Progression" width="100%" />
+
+<br />
+
+<!-- GAMIFIED CONTRIBUTION GRIDS -->
 <div align="center">
-  <h3><code>eddie@github ~ $ whoami</code></h3>
-  <img src="./github-heatmap-art/output/eddie-ascii.svg" width="500" alt="Eddie Ooi ASCII Portrait" />
-  <br><br>
-  <img src="./github-heatmap-art/output/contrib-heatmap.svg" width="860" alt="Eddie Ooi GitHub Heatmap" />
-</div>
-<div align="center">
-  <div style="position: relative; display: inline-block; width: 300px;">
-    <img src="https://media.giphy.com/media/BpcMQqJoaPuhSWjOVV/giphy.gif" style="width: 100%; display: block;" alt="Cat GIF" />
+  <h3><code>eddie@github ~ $ ./start_arcade.sh</code></h3>
+
+  <!-- Cat & Snake Animation -->
+  <div align="center">
+    <img src="https://media.giphy.com/media/BpcMQqJoaPuhSWjOVV/giphy.gif" width="220" alt="Cat GIF" />
+    <br /><br />
+    <img src="https://raw.githubusercontent.com/EddieOoi/EddieOoi/output/github-contribution-grid-snake-dark.svg" width="860" alt="Snake Contribution Grid" />
   </div>
-  <img src="https://raw.githubusercontent.com/EddieOoi/EddieOoi/output/github-contribution-grid-snake-dark.svg" alt="Snake Contribution Grid" />
-  <br /><br />
-  <img src="space-shooter.gif" alt="Space Shooter Contribution Grid" />
+
+  <br />
+
+  <!-- Space Shooter Animation -->
+  <div align="center">
+    <img src="space-shooter.gif" width="860" alt="Space Shooter Contribution Grid" />
+  </div>
 </div>
+
+<br />
 
 <img src="assets/s06_random_dev_quote.svg" alt="06 - Random Quote" width="100%" />
 
