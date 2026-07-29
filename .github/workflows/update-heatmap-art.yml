@@ -27,8 +27,10 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r github-heatmap-art/requirements.txt
 
-      - name: Generate Heatmap SVG
-        run: python github-heatmap-art/generate_heatmap.py
+      - name: Generate Heatmap & ASCII SVG
+        run: |
+          python github-heatmap-art/generate_heatmap.py
+          python github-heatmap-art/generate_ascii.py
 
       - name: Commit & Push Updated SVG
         uses: stefanzweifel/git-auto-commit-action@v5
