@@ -38,8 +38,8 @@ def build_terminal_svg(ascii_lines):
     
     for i, line in enumerate(ascii_lines):
         safe_line = line.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;").replace(" ", "&#160;")
-        # Stagger line-by-line reveal over ~2.8 seconds total
-        delay = i * 0.04
+        # Stagger line appearance + continuous gentle pulse cycle
+        delay = i * 0.05
         text_spans.append(
             f'<tspan class="line" x="{padding_side}" dy="{line_height}" style="animation-delay: {delay:.2f}s;">{safe_line}</tspan>'
         )
@@ -52,28 +52,19 @@ def build_terminal_svg(ascii_lines):
     .title {{ fill: #8b949e; font-family: monospace; font-size: 12px; font-weight: bold; }}
     .ascii {{ fill: #58a6ff; font-family: "Courier New", Courier, monospace; font-size: 10px; white-space: pre; }}
     
-    /* INFINITE REPEATING LOOP ANIMATION */
+    /* REPETITIVE PULSE LOOP - ALWAYS ACTIVE */
     .line {{
-      opacity: 0;
-      animation: scanLoop 9s infinite ease-in-out;
+      animation: pulseGlow 4s infinite ease-in-out;
     }}
 
-    @keyframes scanLoop {{
-      0% {{
-        opacity: 0;
-        fill: #39d353; /* Flash matrix green on entry */
+    @keyframes pulseGlow {{
+      0%, 100% {{
+        opacity: 0.85;
+        fill: #58a6ff; /* Standard terminal blue */
       }}
-      5% {{
+      50% {{
         opacity: 1;
-        fill: #58a6ff; /* Transition to terminal blue */
-      }}
-      85% {{
-        opacity: 1;
-        fill: #58a6ff; /* Hold steady for ~7 seconds */
-      }}
-      95%, 100% {{
-        opacity: 0;
-        fill: #39d353; /* Fade out before restarting loop */
+        fill: #39d353; /* Bright matrix green sweep */
       }}
     }}
   </style>
