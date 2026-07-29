@@ -125,7 +125,12 @@
 ---
 
 <img src="assets/s05_level_progression_grid.svg" alt="05 — Level Progression" width="100%" />
-
+<div align="center">
+  <h3><code>eddie@github ~ $ whoami</code></h3>
+  <img src="./github-heatmap-art/output/eddie-ascii.svg" width="500" alt="Eddie Ooi ASCII Portrait" />
+  <br><br>
+  <img src="./github-heatmap-art/output/contrib-heatmap.svg" width="860" alt="Eddie Ooi GitHub Heatmap" />
+</div>
 <div align="center">
   <div style="position: relative; display: inline-block; width: 300px;">
     <img src="https://media.giphy.com/media/BpcMQqJoaPuhSWjOVV/giphy.gif" style="width: 100%; display: block;" alt="Cat GIF" />
