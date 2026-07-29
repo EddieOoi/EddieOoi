@@ -40,7 +40,7 @@
 <!-- TERMINAL PORTRAIT & CONTRIBUTION HEATMAP -->
 <div align="center">
   <h3><code>eddie@github ~ $ ./render_profile.sh --ascii</code></h3>
-  <img src="./github-heatmap-art/output/eddie-ascii.svg" width="520" alt="Eddie Ooi ASCII Portrait" />
+  <img src="./github-heatmap-art/output/eddie-ascii.svg?v=2" width="520" alt="Eddie Ooi ASCII Portrait" />
   
   <br /><br />
   
