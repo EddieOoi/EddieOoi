@@ -169,6 +169,13 @@
 
 <br />
 
+  <!-- Pac Man Animation -->
+<div align="center">
+  <img src="https://raw.githubusercontent.com/EddieOoi/EddieOoi/output/pacman-contribution-graph-dark.svg" alt="Eddie Ooi's Pac-Man Contribution Graph" width="100%" />
+</div>
+
+<br />
+
 <img src="assets/s06_random_dev_quote.svg" alt="06 - Random Quote" width="100%" />
 
 <div align="center">
