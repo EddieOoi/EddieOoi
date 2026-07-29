@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 45" width="100%" height="45">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@700&amp;display=swap');
+      
+      .bg { fill: #0d1117; rx: 6px; }
+      .border { fill: none; stroke: #30363d; stroke-width: 1; }
+      .text { font-family: 'Fira Code', monospace; font-size: 14px; font-weight: 700; fill: #39d353; letter-spacing: 2px; }
+      .subtext { font-family: 'Fira Code', monospace; font-size: 11px; fill: #8b949e; }
+      .cursor { fill: #39d353; }
+
+      /* Undertale Retro Typewriter Clip Animation */
+      @keyframes typewriter {
+        0% { width: 0px; }
+        35%, 85% { width: 170px; } /* Fully typed out hold duration */
+        95%, 100% { width: 0px; } /* Reset loop */
+      }
+
+      /* Blinking Cursor */
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+
+      .typewriter-mask {
+        animation: typewriter 6s steps(12, end) infinite;
+      }
+
+      .cursor-blink {
+        animation: blink 0.6s infinite;
+      }
+
+      /* Character Slither Animation */
+      @keyframes slither {
+        0% { transform: translateX(0px); }
+        100% { transform: translateX(720px); }
+      }
+      .snake-body { animation: slither 12s linear infinite; }
+    </style>
+
+    <!-- Clip Path Mask for Typewriter Reveal -->
+    <clipPath id="snake-clip">
+      <rect x="20" y="0" width="0" height="45" class="typewriter-mask" />
+    </clipPath>
+  </defs>
+
+  <rect width="100%" height="100%" class="bg"/>
+  <rect width="100%" height="100%" class="border" rx="6"/>
+
+  <!-- Snake Animated Character -->
+  <g class="snake-body">
+    <rect x="20" y="8" width="6" height="6" fill="#0e4429" rx="1"/>
+    <rect x="27" y="8" width="6" height="6" fill="#006d32" rx="1"/>
+    <rect x="34" y="8" width="6" height="6" fill="#26a641" rx="1"/>
+    <rect x="41" y="8" width="6" height="6" fill="#39d353" rx="1"/>
+  </g>
+
+  <!-- Typed Text Group -->
+  <g clip-path="url(#snake-clip)">
+    <text x="20" y="27" class="text">&gt; SNAKE_GAME</text>
+  </g>
+
+  <!-- Static Subtext -->
+  <text x="200" y="27" class="subtext">// CLASSIC RETRO GRID</text>
+</svg>
