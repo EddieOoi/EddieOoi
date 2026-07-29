@@ -4,23 +4,28 @@
     .title { fill: #8b949e; font-family: monospace; font-size: 12px; font-weight: bold; }
     .ascii { fill: #58a6ff; font-family: "Courier New", Courier, monospace; font-size: 10px; white-space: pre; }
     
-    /* ANIMATION DEFINITION */
+    /* INFINITE REPEATING LOOP ANIMATION */
     .line {
       opacity: 0;
-      animation: scanIn 0.3s ease-out forwards;
+      animation: scanLoop 9s infinite ease-in-out;
     }
 
-    @keyframes scanIn {
+    @keyframes scanLoop {
       0% {
         opacity: 0;
-        fill: #39d353; /* Glow green when first appearing */
+        fill: #39d353; /* Flash matrix green on entry */
       }
-      50% {
-        opacity: 0.8;
-      }
-      100% {
+      5% {
         opacity: 1;
-        fill: #58a6ff; /* Fade into final blue accent color */
+        fill: #58a6ff; /* Transition to terminal blue */
+      }
+      85% {
+        opacity: 1;
+        fill: #58a6ff; /* Hold steady for ~7 seconds */
+      }
+      95%, 100% {
+        opacity: 0;
+        fill: #39d353; /* Fade out before restarting loop */
       }
     }
   </style>
