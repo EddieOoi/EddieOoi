@@ -39,12 +39,12 @@ jobs:
       - name: Fix permissions for next step
         run: sudo chmod -R 777 dist
 
-      # Step 4: Generate Pac-Man & Bomberman SVGs
-      - name: Generate Pacman & Bomberman Animations
+      # Step 4: Generate Pac-Man, Bomberman & Breakout SVGs
+      - name: Generate Arcade Animations
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
-          games: 'pacman,bomberman'
+          games: 'pacman,bomberman,breakout'
 
       # Step 5: Push ALL generated SVGs together to output branch
       - name: Push all SVGs to output branch
