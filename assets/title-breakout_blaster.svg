@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 68" width="100%" height="68">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&amp;display=swap');
+
+      text {
+        font-family: 'Fira Code', Consolas, 'Cascadia Code', 'Courier New', monospace;
+      }
+
+      /* --- CHROMATIC GLITCH / SHIFT ANIMATION --- */
+      @keyframes glitchRed {
+        0%, 100% { transform: translate(0, 0); opacity: 0.3; }
+        20% { transform: translate(-1px, 0.5px); opacity: 0.6; }
+        40% { transform: translate(0.5px, -0.5px); opacity: 0.2; }
+        60% { transform: translate(-0.5px, 0); opacity: 0.5; }
+        80% { transform: translate(1px, -0.5px); opacity: 0.4; }
+      }
+
+      @keyframes glitchCyan {
+        0%, 100% { transform: translate(0, 0); opacity: 0.3; }
+        25% { transform: translate(1px, -0.5px); opacity: 0.6; }
+        45% { transform: translate(-0.5px, 0.5px); opacity: 0.3; }
+        65% { transform: translate(0.5px, 0); opacity: 0.5; }
+        85% { transform: translate(-1px, 0.5px); opacity: 0.4; }
+      }
+
+      /* --- TYPING REVEAL ANIMATION FOR TITLE ONLY --- */
+      @keyframes typeReveal {
+        0% { width: 0px; }
+        50%, 90% { width: 220px; }
+        100% { width: 0px; }
+      }
+
+      /* --- REALISTIC ACCURATE BOUNCE VECTOR PHYSICS --- */
+      @keyframes smoothBall {
+        0%   { transform: translate(10px, 45px); } /* Bounce off Paddle */
+        22%  { transform: translate(28px, 26px); } /* Hit Yellow Brick (Bottom Face) */
+        35%  { transform: translate(40px, 14px); } /* Hit Top Ceiling */
+        58%  { transform: translate(32px, 45px); } /* Hit Paddle */
+        80%  { transform: translate(48px, 26px); } /* Hit Green Brick (Bottom Face) */
+        92%  { transform: translate(25px, 40px); } /* Deflect cleanly downward */
+        100% { transform: translate(10px, 45px); } /* Return to starting paddle position */
+      }
+
+      /* --- FLUID PADDLE MOVEMENT --- */
+      @keyframes smoothPaddle {
+        0%   { transform: translateX(0px); }  /* Under first shot */
+        25%  { transform: translateX(10px); } /* Follow ball right */
+        58%  { transform: translateX(20px); } /* Catch second bounce */
+        80%  { transform: translateX(36px); } /* Track right */
+        100% { transform: translateX(0px); }  /* Return left */
+      }
+
+      /* --- SYNCHRONIZED BRICK DESTRUCTION --- */
+      @keyframes breakYellowBrick {
+        0%, 21% { opacity: 1; transform: scale(1); }
+        22%, 92% { opacity: 0; transform: scale(0.4); }
+        98%, 100% { opacity: 1; transform: scale(1); }
+      }
+
+      @keyframes breakGreenBrick {
+        0%, 79% { opacity: 1; transform: scale(1); }
+        80%, 94% { opacity: 0; transform: scale(0.4); }
+        98%, 100% { opacity: 1; transform: scale(1); }
+      }
+
+      /* Class Assignments */
+      .glitch-r { animation: glitchRed 3s infinite ease-in-out; fill: #ff0055; }
+      .glitch-c { animation: glitchCyan 3s infinite ease-in-out; fill: #bd93f9; }
+      
+      .prompt { fill: #ff79c6; font-weight: 900; font-size: 14px; }
+      .title-main { fill: #ff79c6; font-size: 14px; font-weight: 700; letter-spacing: 1.5px; }
+      .subtitle-static { fill: #8b949e; font-size: 11px; font-weight: 400; letter-spacing: 1.2px; }
+
+      .type-clip-rect { animation: typeReveal 6s steps(20) infinite; }
+
+      .anim-ball { animation: smoothBall 4.2s infinite linear; }
+      .anim-paddle { animation: smoothPaddle 4.2s infinite ease-in-out; }
+      .yellow-brick { animation: breakYellowBrick 4.2s infinite; transform-origin: 28px 23px; }
+      .green-brick { animation: breakGreenBrick 4.2s infinite; transform-origin: 48px 23px; }
+    </style>
+
+    <!-- Typing Mask for Title Reveal -->
+    <clipPath id="title-type-clip">
+      <rect class="type-clip-rect" x="52" y="0" width="220" height="68" />
+    </clipPath>
+  </defs>
+
+  <!-- ================= CONTAINER CARD ================= -->
+  <rect x="2" y="2" width="846" height="64" rx="6" fill="#0b0e14" stroke="#21262d" stroke-width="1.2"/>
+
+  <!-- ================= TERMINAL TEXT CONTENT ================= -->
+  <!-- Prompt Symbol > -->
+  <text x="32" y="40" class="prompt">&gt;</text>
+
+  <!-- Clipped Title Group (Animated) -->
+  <g clip-path="url(#title-type-clip)">
+    <g transform="translate(52, 40)">
+      <!-- Red Shift Layer -->
+      <text x="0" y="0" class="title-main glitch-r">BREAKOUT_BLASTER</text>
+      <!-- Purple Shift Layer -->
+      <text x="0" y="0" class="title-main glitch-c">BREAKOUT_BLASTER</text>
+      <!-- Main Face -->
+      <text x="0" y="0" class="title-main">BREAKOUT_BLASTER</text>
+    </g>
+  </g>
+
+  <!-- Static Grey Subtitle -->
+  <text x="250" y="39" class="subtitle-static">// BRICK BREAK SIMULATION</text>
+
+  <!-- ================= RIGHT SIDE: BREAKOUT SPRITES ================= -->
+  <g transform="translate(740, 0)">
+    <!-- Red Brick on Left -->
+    <rect x="0" y="20" width="16" height="6" rx="1" fill="#ff5555" />
+    
+    <!-- Yellow Brick in Middle -->
+    <rect x="20" y="20" width="16" height="6" rx="1" fill="#f1fa8c" class="yellow-brick" />
+    
+    <!-- Green Brick on Right -->
+    <rect x="40" y="20" width="16" height="6" rx="1" fill="#50fa7b" class="green-brick" />
+
+    <!-- Continuous Moving Ball -->
+    <circle cx="0" cy="0" r="3" fill="#ffffff" class="anim-ball" />
+
+    <!-- Smooth Tracking Blue Paddle -->
+    <g class="anim-paddle">
+      <rect x="0" y="48" width="24" height="5" rx="2.5" fill="#8be9fd" />
+      <rect x="2" y="49" width="20" height="2" rx="1" fill="#a4f0ff" />
+    </g>
+  </g>
+</svg>
