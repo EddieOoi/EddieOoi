@@ -39,12 +39,12 @@ jobs:
       - name: Fix permissions for next step
         run: sudo chmod -R 777 dist
 
-      # Step 4: Generate Pac-Man, Bomberman & Breakout, Minesweeper SVGs
+      # Step 4: Generate Pac-Man, Bomberman, Breakout & Puzzle Bobble SVGs
       - name: Generate Arcade Animations
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
-          games: 'pacman,bomberman,breakout, puzzle-bobble, minesweeper'
+          games: 'pacman,bomberman,breakout,puzzle-bobble'
 
       # Step 5: Push ALL generated SVGs together to output branch
       - name: Push all SVGs to output branch
