@@ -24,10 +24,10 @@
         85% { transform: translate(-1px, 0.5px); opacity: 0.4; }
       }
 
-      /* --- TYPING REVEAL ANIMATION --- */
-      @keyframes typeReveal {
+      /* --- UNIQUE TYPING SEQUENCE 2 --- */
+      @keyframes typeRevealPuzzle {
         0% { width: 0px; }
-        50%, 90% { width: 190px; }
+        45%, 80% { width: 190px; }
         100% { width: 0px; }
       }
 
@@ -58,7 +58,8 @@
       .title-main { fill: #8be9fd; font-size: 13px; font-weight: 700; letter-spacing: 1.5px; }
       .subtitle-static { fill: #8b949e; font-size: 10px; font-weight: 400; letter-spacing: 1.2px; }
 
-      .type-clip-rect { animation: typeReveal 6s steps(18) infinite; }
+      /* Medium typing pace with -1.5s start offset */
+      .type-clip-rect { animation: typeRevealPuzzle 6.2s steps(13) infinite -1.5s; }
 
       .anim-pointer { animation: aimPointer 4s infinite ease-in-out; transform-origin: 18px 32px; }
       .anim-shot-bubble { animation: launchBubble 4s infinite cubic-bezier(0.25, 1, 0.5, 1); }
@@ -70,7 +71,6 @@
     </clipPath>
   </defs>
 
-  <!-- Container Box Matching Bomberman -->
   <rect x="1" y="1" width="798" height="40" rx="6" fill="#0b0e14" stroke="#21262d" stroke-width="1"/>
 
   <text x="28" y="26" class="prompt">&gt;</text>
@@ -85,7 +85,6 @@
 
   <text x="210" y="25" class="subtitle-static">// BUBBLE SHOOTER SIMULATION</text>
 
-  <!-- Right Graphic Element -->
   <g transform="translate(710, 0)">
     <circle cx="6" cy="11" r="3.5" fill="#50fa7b" />
 

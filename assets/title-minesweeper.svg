@@ -24,10 +24,10 @@
         85% { transform: translate(-1px, 0.5px); opacity: 0.4; }
       }
 
-      /* --- TYPING REVEAL ANIMATION --- */
-      @keyframes typeReveal {
+      /* --- UNIQUE TYPING SEQUENCE 3 --- */
+      @keyframes typeRevealMinesweeper {
         0% { width: 0px; }
-        50%, 90% { width: 170px; }
+        40%, 75% { width: 170px; }
         100% { width: 0px; }
       }
 
@@ -61,7 +61,8 @@
       .title-main { fill: #ff5555; font-size: 13px; font-weight: 700; letter-spacing: 1.5px; }
       .subtitle-static { fill: #8b949e; font-size: 10px; font-weight: 400; letter-spacing: 1.2px; }
 
-      .type-clip-rect { animation: typeReveal 6s steps(15) infinite; }
+      /* Slower typing pace with -3.2s start offset */
+      .type-clip-rect { animation: typeRevealMinesweeper 5.4s steps(11) infinite -3.2s; }
 
       .anim-cursor { animation: moveCursor 4.5s infinite cubic-bezier(0.4, 0, 0.2, 1); }
       .anim-reveal { animation: revealTile 4.5s infinite; transform-origin: 15px 20px; }
@@ -73,7 +74,6 @@
     </clipPath>
   </defs>
 
-  <!-- Container Box Matching Bomberman -->
   <rect x="1" y="1" width="798" height="40" rx="6" fill="#0b0e14" stroke="#21262d" stroke-width="1"/>
 
   <text x="28" y="26" class="prompt">&gt;</text>
@@ -88,7 +88,6 @@
 
   <text x="190" y="25" class="subtitle-static">// MINE SWEEP SIMULATION</text>
 
-  <!-- Right Graphic Element -->
   <g transform="translate(710, 8)">
     <g fill="#21262d" stroke="#30363d" stroke-width="0.8">
       <rect x="0" y="0" width="10" height="10" rx="1" />

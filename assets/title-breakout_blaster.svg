@@ -24,10 +24,10 @@
         85% { transform: translate(-1px, 0.5px); opacity: 0.4; }
       }
 
-      /* --- TYPING REVEAL ANIMATION --- */
-      @keyframes typeReveal {
+      /* --- UNIQUE TYPING SEQUENCE 1 --- */
+      @keyframes typeRevealBreakout {
         0% { width: 0px; }
-        50%, 90% { width: 220px; }
+        35%, 85% { width: 220px; }
         100% { width: 0px; }
       }
 
@@ -69,7 +69,8 @@
       .title-main { fill: #ff79c6; font-size: 13px; font-weight: 700; letter-spacing: 1.5px; }
       .subtitle-static { fill: #8b949e; font-size: 10px; font-weight: 400; letter-spacing: 1.2px; }
 
-      .type-clip-rect { animation: typeReveal 6s steps(20) infinite; }
+      /* Fast typing pace: 4.8s loop duration */
+      .type-clip-rect { animation: typeRevealBreakout 4.8s steps(16) infinite; }
 
       .anim-ball { animation: smoothBall 4.2s infinite linear; }
       .anim-paddle { animation: smoothPaddle 4.2s infinite ease-in-out; }
@@ -82,7 +83,6 @@
     </clipPath>
   </defs>
 
-  <!-- Container Box Matching Bomberman -->
   <rect x="1" y="1" width="798" height="40" rx="6" fill="#0b0e14" stroke="#21262d" stroke-width="1"/>
 
   <text x="28" y="26" class="prompt">&gt;</text>
@@ -97,7 +97,6 @@
 
   <text x="240" y="25" class="subtitle-static">// BRICK BREAK SIMULATION</text>
 
-  <!-- Right Graphic Element -->
   <g transform="translate(700, 0)">
     <rect x="0" y="10" width="12" height="4" rx="1" fill="#ff5555" />
     <rect x="16" y="10" width="12" height="4" rx="1" fill="#f1fa8c" class="yellow-brick" />
