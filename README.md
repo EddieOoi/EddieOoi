@@ -202,6 +202,40 @@
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/EddieOoi/EddieOoi/output/bomberman-contribution-graph.svg">
     <img alt="bomberman contribution graph" src="https://raw.githubusercontent.com/EddieOoi/EddieOoi/output/bomberman-contribution-graph.svg" width="100%">
   </picture>
+  <br />
+  <br />
+
+  <!-- 5. Breakout Section -->
+  <img src="assets/title-breakout_blaster.svg" width="100%" alt="Breakout Title" />
+  <br />
+  <br />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/EddieOoi/EddieOoi/output/breakout-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/EddieOoi/EddieOoi/output/breakout-contribution-graph.svg">
+    <img alt="breakout contribution graph" src="https://raw.githubusercontent.com/EddieOoi/EddieOoi/output/breakout-contribution-graph.svg" width="100%">
+  </picture>
+  <br />
+  <br />
+
+  <!-- 6. Puzzle Bobble Section -->
+  <img src="assets/title-puzzle_booble.svg" width="100%" alt="Puzzle Bobble Title" />
+  <br />
+  <br />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/EddieOoi/EddieOoi/output/puzzle-bobble-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/EddieOoi/EddieOoi/output/puzzle-bobble-contribution-graph.svg">
+    <img alt="puzzle bobble contribution graph" src="https://raw.githubusercontent.com/EddieOoi/EddieOoi/output/puzzle-bobble-contribution-graph.svg" width="100%">
+  </picture>
+
+  <!-- 7. Minesweeper Section -->
+<img src="assets/title-minesweeper.svg" width="100%" alt="Minesweeper Title" />
+<br />
+<br />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/EddieOoi/EddieOoi/output/minesweeper-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/EddieOoi/EddieOoi/output/minesweeper-contribution-graph.svg">
+  <img alt="minesweeper contribution graph" src="https://raw.githubusercontent.com/EddieOoi/EddieOoi/output/minesweeper-contribution-graph.svg" width="100%">
+</picture>
 </div>
 
 <br />
