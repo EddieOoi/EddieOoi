@@ -261,6 +261,10 @@
 
 ---
 <div align="center">
+    <div align="center">
+    <img src="assets/HM%20HM%20HM%20%20overthing%20catt.jpg" alt="Overthinking Cat" width="350" />
+  </div>
+  <br></br>
   <a href="https://github.com/EddieOoi">
     <img src="https://img.shields.io/badge/⚡%20Join%20the%20Party%20%7C%20Follow%20Me-9D4EDD?style=for-the-badge&logo=github&logoColor=white" alt="Follow Eddie" />
   </a>
