@@ -46,14 +46,13 @@
   <img src="./github-heatmap-art/output/eddie-ascii.svg?v=2" width="520" alt="Eddie Ooi ASCII Portrait" />
   
   <br /><br />
-  
+    <h3><code>eddie@github ~ $ ./git_koi.sh --render</code></h3>
+  <p align="center">
+    <img src="assets/koi.gif" alt="Eddie's GitHub Koi" width="250" />
+  </p>
   <h3><code>eddie@github ~ $ ./contributions.sh --matrix</code></h3>
   <img src="./github-heatmap-art/output/contrib-heatmap.svg" width="860" alt="Eddie Ooi GitHub Contribution Heatmap Matrix" />
 
-  <h3><code>eddie@github ~ $ ./git_koi.sh --render</code></h3>
-  <p align="center">
-    <img src="./github-user-contribution-koi.gif" alt="Eddie's GitHub Koi" width="600" />
-  </p>
 </div>
 
 <br />
