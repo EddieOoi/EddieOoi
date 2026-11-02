@@ -17,12 +17,12 @@ jobs:
       - name: Generate Git Koi
         uses: yalongwastaken/git-koi@v1
         with:
-          github_token: ${{ secrets.GIT_KOI_TOKEN }}
-          gh_username: EddieOoi
-          path: assets/github-user-contribution-koi.gif
+          token: ${{ secrets.GIT_KOI_TOKEN }}
+          login: EddieOoi
+          output-dir: assets
 
       - name: Commit and Push Koi GIF
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: update git koi animation [skip ci]"
-          file_pattern: "assets/github-user-contribution-koi.gif"
+          file_pattern: "assets/koi.gif"
