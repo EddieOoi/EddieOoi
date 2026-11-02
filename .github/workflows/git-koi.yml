@@ -2,9 +2,8 @@ name: Generate Git Koi
 
 on:
   schedule:
-    # Runs every night at midnight UTC
     - cron: "0 0 * * *"
-  workflow_dispatch: # Allows manual trigger from the Actions tab
+  workflow_dispatch:
 
 jobs:
   generate-koi:
@@ -20,10 +19,10 @@ jobs:
         with:
           github_token: ${{ secrets.GIT_KOI_TOKEN }}
           gh_username: EddieOoi
-          output_path: github-user-contribution-koi.gif
+          output_path: assets/github-user-contribution-koi.gif
 
       - name: Commit and Push Koi GIF
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: update git koi animation [skip ci]"
-          file_pattern: "github-user-contribution-koi.gif"
+          file_pattern: "assets/github-user-contribution-koi.gif"
